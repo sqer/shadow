@@ -1,0 +1,39 @@
+*{margin:0;padding:0}html{background:-moz-linear-gradient(top,rgba(0,0,0,0) 9%,rgba(0,0,0,0.04) 25%,rgba(0,0,0,0.2) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(9%,rgba(0,0,0,0)),color-stop(25%,rgba(0,0,0,0.04)),color-stop(100%,rgba(0,0,0,0.2)));background:-webkit-linear-gradient(top,rgba(0,0,0,0) 9%,rgba(0,0,0,0.04) 25%,rgba(0,0,0,0.2) 100%);background:-o-linear-gradient(top,rgba(0,0,0,0) 9%,rgba(0,0,0,0.04) 25%,rgba(0,0,0,0.2) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,0) 9%,rgba(0,0,0,0.04) 25%,rgba(0,0,0,0.2) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 9%,rgba(0,0,0,0.04) 25%,rgba(0,0,0,0.2) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#33000000',GradientType=0);margin:0;height:100%}body{font-family:Arial,sans-serif;font-size:14px;color:#000879 text-shadow:1px 1px 1px #fff;overflow-y:scroll;height:100%;margin:0}h1{font-size:56px}h2{font-size:20px;padding:0 0 40px 0;color:#aaa}h2 span{color:#ffa800}a{color:#000879}a:hover{color:#006}p{padding:5px 0}.wrapper{max-height:95%;margin:0;padding-top:50px}.box{width:49%}.left{float:left}.right{float:right}.clear{clear:both}a.back{color:#777;position:fixed;top:5px;right:10px;text-decoration:none}.form_wrapper{background:#fff;border:1px solid #ddd;margin:0 auto;width:250px;font-size:16px;-moz-box-shadow:1px 1px 7px #ccc;-webkit-box-shadow:1px 1px 7px #ccc;box-shadow:1px 1px 7px #ccc}.form_wrapper h3{padding: 10px 20px 10px 20px;
+
+background: #a9e4f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #a9e4f7 0%, #0fb4e7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e4f7), color-stop(100%,#0fb4e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a9e4f7 0%,#0fb4e7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+		
+
+font-family:Arial,sans-serif;font-weight:bold;color:#fff;font-size:12pt;border-bottom:1px solid #ddd}.form_wrapper form{display:none;background:#fff}.form_wrapper .column{width:47%;float:left}form.active{display:block}form.login{width:250px}form.register{width:550px}form.forgot_password{width:300px}.form_wrapper a{text-decoration:none;color:#000879 font-size:12px}.form_wrapper a:hover{color:#006}.form_wrapper label{font-weight:bold;color:#555;font-family:verdana,helvetica,sans-serif;font-size:11px;padding-right:10px;display:block;padding:10px 30px 0 30px;margin:0px 0 0 0}.form_wrapper .bottom{
+background: #a9e4f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #a9e4f7 0%, #0fb4e7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e4f7), color-stop(100%,#0fb4e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a9e4f7 0%,#0fb4e7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+		
+	border-top:1px solid #ddd;margin-top:15px;clear:both;color:#fff;text-shadow:1px 1px 1px #000}.form_wrapper .bottom a{display:block;clear:both;padding:10px 30px;text-align:right;color:#ffa800;text-shadow:1px 1px 1px #000}.form_wrapper a.forgot{float:right;color:#000879 text-shadow:1px 1px 1px #fff}.form_wrapper a.forgot:hover{color:#006;text-decoration:underline}.form_wrapper div.remember{float:left;width:140px;margin-left:15px;margin-top:16px;font-size:11px}.form_wrapper div.remember input{float:left;margin:2px 5px 0 0}.form_wrapper span.error{visibility:hidden;color:red;font-size:11px;font-style:italic;display:block;margin:4px 30px}.form_wrapper input[type="submit"]{background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf));background:-moz-linear-gradient(center top,#d8d8d8 5%,#ccc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');background-color:#ccc;border:1px solid #ccc;display:inline-block;color:black;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;padding:4px 8px;text-decoration:none;float:right;margin:10px 25px 10px 10px}.form_wrapper input[type="submit"]:hover{background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed));background:-moz-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf}.form_wrapper input[type="submit"]:active{position:relative;top:1px}.errormessage{color:red}.error{text-align:center;align:center;margin:2px}#footer{min-height:4.80%;position:absolute;bottom:0;max-height:100%;width:100%}#product{font-family:Verdana;font-weight:bold;padding-top:30px;margin-left:20px;float:left;color:white;font-size:16pt}#logo{padding-top:18px;margin-right:20px}#contact-footer{padding-top:12px;float:left;margin-left:10px;margin-bottom:5px;font-size:12px;color:#555}
+#header_area{
+background: #a9e4f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #a9e4f7 0%, #0fb4e7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e4f7), color-stop(100%,#0fb4e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a9e4f7 0%,#0fb4e7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+	
+height:90px;margin:0;padding:0px;border-bottom:2px solid #ffb300;}.button_style{background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf));background:-moz-linear-gradient(center top,#d8d8d8 5%,#ccc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');background-color:#ccc;border:1px solid #ccc;display:inline-block;color:black;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;padding:6px 10px;text-decoration:none}.button_style:hover{background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed));background:-moz-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf}.button_style:active{position:relative;top:1px}input[type="text"],input[type="password"]{margin:5px 30px 0 30px;padding:3px;display:block;width:74%;border:1px solid #ddd;background:#fafafa}input[type="text"]:hover,input[type="text"]:focus,input[type="password"]:hover{border-color:#000879;background:#f6f6f6}a{font-weight:bold;font-size:11px;margin:8px;margin-right:20px;float:right;color:#000879 text-shadow:1px 1px 1px #fff}
+
+#normal{
+font-weight:normal;
+}
+

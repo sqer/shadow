@@ -1,0 +1,40 @@
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM uzytkownicy WHERE login = ? 
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: admin(String)
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - <==    Columns: id_uzytkownika, login, haslo, rola, imie, nazwisko, telefon
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 1, admin, 098f6bcd4621d373cade4e832627b4f6, ROLE_ADMIN, Marcin, Kobierowski, 88
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM zdarzenia z INNER JOIN dokument d ON z.id_dokumentu=d.id_dokumentu WHERE z.id_uzytkownika= ? AND d.zakonczono = false 
+2015-09-23 19:33:09 DEBUG [741939962@qtp-604529853-3] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: 1(Integer)
+2015-09-23 19:57:17 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:17 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM uzytkownicy WHERE login = ? 
+2015-09-23 19:57:17 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: admin(String)
+2015-09-23 19:57:17 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - <==    Columns: id_uzytkownika, login, haslo, rola, imie, nazwisko, telefon
+2015-09-23 19:57:17 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 1, admin, 098f6bcd4621d373cade4e832627b4f6, ROLE_ADMIN, Marcin, Kobierowski, 88
+2015-09-23 19:57:20 DEBUG [1838168174@qtp-1059051354-5] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM uzytkownicy 
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: 
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==    Columns: id_uzytkownika, login, haslo, rola, imie, nazwisko, telefon
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 1, admin, 098f6bcd4621d373cade4e832627b4f6, ROLE_ADMIN, Marcin, Kobierowski, 88
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 2, test, 098f6bcd4621d373cade4e832627b4f6, ROLE_USER, Jan, Kowalski, 88
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 3, kierownik, f746d33b44b95ad215a4b303eb3cc5f2, ROLE_MANAGER, Tomasz, Kowal, 882
+2015-09-23 19:57:23 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:26 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:26 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM uzytkownicy WHERE id_uzytkownika = ? 
+2015-09-23 19:57:26 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: 2(Integer)
+2015-09-23 19:57:26 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==    Columns: id_uzytkownika, login, haslo, rola, imie, nazwisko, telefon
+2015-09-23 19:57:26 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 2, test, 098f6bcd4621d373cade4e832627b4f6, ROLE_USER, Jan, Kowalski, 88
+2015-09-23 19:57:31 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:31 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: delete from uzytkownicy where id_uzytkownika = ? 
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: 3(Integer)
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==>  Executing: SELECT * FROM uzytkownicy 
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ==> Parameters: 
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==    Columns: id_uzytkownika, login, haslo, rola, imie, nazwisko, telefon
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 1, admin, 098f6bcd4621d373cade4e832627b4f6, ROLE_ADMIN, Marcin, Kobierowski, 88
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - <==        Row: 2, test, 098f6bcd4621d373cade4e832627b4f6, ROLE_USER, Jan, Kowalski, 88
+2015-09-23 19:57:35 DEBUG [1437373741@qtp-1059051354-2] (o.a.i.l.slf4j.Slf4jImpl:28) - ooo Connection Opened

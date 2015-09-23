@@ -1,0 +1,32 @@
+
+
+
+#div_kontrahent {
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 1em;
+	margin-left: 5px;
+}
+#div_kontrahent_edit {
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+.tableInput{
+width:90%
+}
+.tableTd{
+width:50%;
+}
+.table_create tr input {
+width:90%;
+}
+
+.chzn-select{
+	width:90% !important;
+	
+}
+	 	#haslo{
+margin-left: 5px;
+}

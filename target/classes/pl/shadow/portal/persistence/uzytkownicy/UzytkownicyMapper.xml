@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pl.shadow.portal.persistence.uzytkownicy.UzytkownicyMapper">
+	<cache />
+
+	<resultMap id="uzytkownicyResultMap" type="pl.shadow.portal.model.uzytkownicy.Uzytkownik">
+		<result property="id" column="id_uzytkownika" jdbcType="INTEGER"
+			javaType="java.lang.Integer" />
+		<result property="login" column="login" />
+		<result property="haslo" column="haslo" />
+		<result property="rola" column="rola" />
+		<result property="imie" column="imie" />
+		<result property="nazwisko" column="nazwisko" />
+		<result property="telefon" column="telefon" />
+	</resultMap>
+
+	<select id="getUzytkownicy" resultMap="uzytkownicyResultMap">
+		<![CDATA[
+			SELECT * FROM uzytkownicy
+		]]>
+	</select>
+
+
+	<select id="getUzytkownikById" resultMap="uzytkownicyResultMap">
+		SELECT * FROM
+		uzytkownicy WHERE id_uzytkownika = #{id}
+	</select>
+	<select id="getUzytkownikByName" resultMap="uzytkownicyResultMap">
+		SELECT * FROM
+		uzytkownicy WHERE login = #{name}
+	</select>
+
+
+	<insert id="persist" parameterType="pl.shadow.portal.model.uzytkownicy.Uzytkownik"
+		useGeneratedKeys="true" keyProperty="id">
+
+		INSERT INTO uzytkownicy (login,
+		haslo, rola, imie, nazwisko, telefon)
+		VALUES (#{login}, #{haslo},
+		#{rola}, #{imie}, #{nazwisko}, #{telefon})
+	</insert>
+
+	<update id="update" parameterType="pl.shadow.portal.model.uzytkownicy.Uzytkownik">
+		UPDATE uzytkownicy SET
+		login =
+		#{login},
+		rola = #{rola},
+		imie = #{imie},
+		nazwisko = #{nazwisko},
+		telefon
+		= #{telefon}
+		WHERE id_uzytkownika = #{id}
+	</update>
+	<update id="changePassword" parameterType="pl.shadow.portal.model.uzytkownicy.Uzytkownik">
+		UPDATE uzytkownicy SET
+		haslo =
+		#{haslo}
+		WHERE id_uzytkownika = #{id}
+	</update>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from uzytkownicy
+		where
+		id_uzytkownika = #{id_uzytkownicy}
+	</delete>
+</mapper>
